@@ -1,0 +1,5 @@
+<launch>
+<!--x,y,z = 1.028, -0.11, 0.8  rpy = 0,0,0.43-->
+<!--node name="spawn_coke_can" pkg="gazebo_ros" type="spawn_model" args="-file $(find exmpl_models)/coke_can/model.sdf -sdf -model coke_can -x 1 -y -0.5 -z 0.8  -Y 0" /-->
+<node name="spawn_coke_can" pkg="gazebo_ros" type="spawn_model" args="-file $(find exmpl_models)/cylinder/model.sdf -sdf -model cylinder -x 0.4 -y -0.38 -z 1  -Y 0" />
+</launch>
